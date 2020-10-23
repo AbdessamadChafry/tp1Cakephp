@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<h1>
+			<p> 420-5b7 MO Applications internet.</p>
+			<p>Automne 2018, Collège Montmorency.</p>
+		</h1>
+		
+		<p> Cette application permet la vente des voitures. On peut ajouter notre voiture et dans la description lui afficher le prix. 
+		Ainsi, avec la table offre les utilisateurs peuvent faire une offre pour la voiture en question. La BD comporte un hasMany en lien avec les voitures et les offres 
+		et il contient un belongsToMany avec les tags. L'application fait des traductions en francais, anglais et arabe. La traduction est aussi fait sur la description de 
+		la voiture. On peux aussi afficher la voiture avec une image.</p>
+		
+		<p> Base de données : </p>
+		<img src="webroot/img/bd.PNG" alt=""/>
+		
+		<p> Le modèle à la base : </p>
+		<img src="webroot/img/bdModel.PNG" alt=""/>
+		
+	</body>
+
+</html>
